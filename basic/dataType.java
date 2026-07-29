@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class dataType {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // integer
+        int a = 80;
+
+        // boolean 
+        boolean b = true;
+        
+        // character
+
+        char c = "90";
+
+        // Arrays in Java
+
+        // Declaration
+        int[] arr;
+
+        // Initialization
+        arr = new int[5];
+
+        // Or both together
+        int[] arr = new int[5];
+
+        int n = sc.nextInt();
+        
+        // array 
+        int[] arr = new int[n];
+
+        int[] arr = new int[5];
+
+
+                            
+        for(int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }         
+
+        for(int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+                                                                                    
+     sc.close();
+    }
+}
+
