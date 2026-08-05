@@ -12,7 +12,7 @@ public class dataType {
         
         // character
 
-        char c = "90";
+        char c = '9';
 
         // Arrays in Java
 
@@ -23,23 +23,23 @@ public class dataType {
         arr = new int[5];
 
         // Or both together
-        int[] arr = new int[5];
+        int[] arr1 = new int[5];
 
         int n = sc.nextInt();
         
         // array 
-        int[] arr = new int[n];
+        int[] arr2 = new int[n];
 
-        int[] arr = new int[5];
+        int[] arr3 = new int[5];
 
 
                             
         for(int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+            arr2[i] = sc.nextInt();
         }         
 
         for(int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.print(arr2[i] + " ");
         }
                                                                                     
      sc.close();

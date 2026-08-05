@@ -11,7 +11,7 @@ public class timeComplexity {
         String[] arr1 = {"O(1)", "O(log n)", "O(n)", "O(n log n)", "O(n²)", "O(n³)", "O(2^n)", "O(n!)"};
 
         // Uses O(n^2) space.
-        int[][] matrix = new int [n][n];
+        int[][] matrix1 = new int [n][n];
 
         // Time Complexity = O(n)
         for(int i = 0; i < n; i++) {
